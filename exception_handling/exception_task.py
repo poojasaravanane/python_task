@@ -1,54 +1,54 @@
 #1
-# try:
-#     num1=int(input("enter the number:"))
-#     num2=int(input("enter the number:"))
-#     total=num1/num2
-#     print(total)
-# except ZeroDivisionError:
-#     print("cannot divide by zero")
-# except ValueError:
-#     print("enter correct value")
+try:
+    num1=int(input("enter the number:"))
+    num2=int(input("enter the number:"))
+    total=num1/num2
+    print(total)
+except ZeroDivisionError:
+    print("cannot divide by zero")
+except ValueError:
+    print("enter correct value")
 
 
 #2
-# try:
-#     x = input("Enter a number: ")
-#     number = int(x)
-#     print("You entered:", number)
-# except ValueError:
-#     print("Invalid input")
+try:
+    x = input("Enter a number: ")
+    number = int(x)
+    print("You entered:", number)
+except ValueError:
+    print("Invalid input")
 
 # 3
-# a = {
-#     "name": "Pooja",
-#     "age": 21,
-#     "course": "BCA",
-#     "city": "puducherry"
-# }
-# try:
-#     key = input("Enter any key: ")
-#     value = a[key]
-#     print("Value:", value)
-# except KeyError:
-#     print("Key not found in the dictionary.")
+a = {
+    "name": "Pooja",
+    "age": 21,
+    "course": "BCA",
+    "city": "puducherry"
+}
+try:
+    key = input("Enter any key: ")
+    value = a[key]
+    print("Value:", value)
+except KeyError:
+    print("Key not found in the dictionary.")
 
 # 4
-# try:
-#     num = int(input("Enter an even number: "))
-#     if num % 2!= 0:
-#         raise ValueError("The number is not even.")
-#     print("You entered an even number:", num)
-# except ValueError as e:
-#     print("Error:", e)
+try:
+    num = int(input("Enter an even number: "))
+    if num % 2!= 0:
+        raise ValueError("The number is not even.")
+    print("You entered an even number:", num)
+except ValueError as e:
+    print("Error:", e)
 
 # 5
-# try:
-#     age = int(input("Enter your age: "))
-#     if age < 0:
-#         raise ValueError("Age cannot be negative")
-#     print("Your age is ", age)
-# except ValueError as e:
-#     print("Error:", e)
+try:
+    age = int(input("Enter your age: "))
+    if age < 0:
+        raise ValueError("Age cannot be negative")
+    print("Your age is ", age)
+except ValueError as e:
+    print("Error:", e)
 
 # 6
 try:
