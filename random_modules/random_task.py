@@ -2,9 +2,9 @@ import random
 def game():
     enemy=random.choice(['dharshini','haadhiya','sathurya_lakshmi','abhinaya','madhumitha'])
     print("you have 6 attempts to guess pooja's enemy")
-    print("if you know pooja very well ,guess her main enemy")
+    print("choose from here: "'haadhiya,','sathurya_lakshmi,','dharshini,','abhinaya,','madhumitha.')
     attempts=0
-    max_attempts=6
+    max_attempts=5
 
     while attempts< max_attempts:
         guess = input(f"Attempt {attempts + 1}: ")
